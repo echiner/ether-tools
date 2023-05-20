@@ -3,7 +3,7 @@
 ## Introduction
 
 Useful tools for Ethereum:
-* send_ether.py: Send ether to a list of addresses
+* **send_ether.py**: Send ether to a list of addresses.
 
 ## Setup
 

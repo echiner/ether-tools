@@ -12,9 +12,9 @@ Follow these steps to run the scripts:
 * Download and install python: https://www.python.org/downloads/
 * Install required libraries
 
-´´´
+```
 pip install web3
-´´´
+```
 
 ## Troubleshooting
 

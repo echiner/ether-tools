@@ -5,7 +5,7 @@
 Useful tools for Ethereum:
 * **send_ether.py**: Send ether to a list of addresses.
 
-## Setup
+## Initial setup
 
 Follow these steps to run the scripts:
 
@@ -14,6 +14,39 @@ Follow these steps to run the scripts:
 
 ```
 pip install web3
+```
+
+## Config and run
+
+### send_ether.py
+
+* Setup send_ether.ini by adding sender private key and the provider URL
+* Add the list of addresses to send_ether.addresses
+  * Duplicated addresses will be automatically removed
+  * Commented addresses will be automatically skipped
+  * Incorrect addreses will be automatically skipped
+* Execute the code
+  * A confirmation is required prior to sending the funds.
+
+```
+python send_ether.py 0.1
+```
+
+Sample execution:
+
+```
+---------------------------------------------------
+Sender address: 0xXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Amount to be sent: 0.1
+---------------------------------------------------
+About to send 0.1 Ether to the following 2 addresses:
+ - 0xYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
+ - 0xZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+
+Are you sure you want to proceed? (yes/no): yes
+
+1: Sent 0.1 Ether to 0xYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY. Transaction hash: 0x429487e3ffd4159fbb7c24b2625a7abade343216c7bc3ca21ea127067e534c5b
+2: Sent 0.1 Ether to 0xZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ. Transaction hash: 0x4372d9e6d34dbf476454390526d5eea8a49a3bbb73d423d38d8bd9febfbd9236
 ```
 
 ## Troubleshooting

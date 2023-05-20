@@ -20,8 +20,8 @@ pip install web3
 
 ### send_ether.py
 
-* Setup send_ether.ini by adding sender private key and the provider URL
-* Add the list of addresses to send_ether.addresses
+* Setup `send_ether.ini` by adding sender private key and the provider URL
+* Add the list of addresses to `send_ether.addresses`
   * Duplicated addresses will be automatically removed
   * Commented addresses will be automatically skipped
   * Incorrect addreses will be automatically skipped

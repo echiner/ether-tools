@@ -51,9 +51,9 @@ Are you sure you want to proceed? (yes/no): yes
 
 ## Troubleshooting
 
-### Error installing web3
+### Error installing web3 in Windows
 
-In Windows you might get an error when installing web3 ("pip install web3") realted to "lru-dict".
+In Windows you might get an error when installing web3 ("pip install web3") related to "lru-dict".
 This is how you solve it:
 
 The error you're encountering is due to the lru-dict package requiring Microsoft Visual C++ 14.0 or greater to be installed on your system. To resolve this issue, follow these steps:
